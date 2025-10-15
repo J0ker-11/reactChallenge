@@ -8,6 +8,7 @@ const Button = ({ text, type }) => {
   };
 
   return (
+    
     <button style={getStyle()}>
       {text}
     </button>
