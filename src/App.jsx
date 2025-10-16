@@ -4,6 +4,7 @@ import ProfileCard from "./Components/ProfileCard";
 import CourseList from "./Components/CourseList";
 import ShowMore from "./Components/ShowMore";
 import LoginStatus from "./Components/LoginStatus";
+import MultipleConditions from "./Components/MultipleConditions";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <h1 className="text-4xl my-5"> CONDITIONAL RENDERING TASKS</h1>
       <ShowMore />
       <LoginStatus />
+      <MultipleConditions />
     </>
   );
 };
