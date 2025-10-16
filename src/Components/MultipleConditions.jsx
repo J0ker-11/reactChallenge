@@ -5,6 +5,7 @@ const MultipleConditions = () => {
 
   return (
     <div>
+        <h1>CHALLENGE 3 </h1>
       {
         age > 17 
           ? <p>You are allowed to enter</p> 

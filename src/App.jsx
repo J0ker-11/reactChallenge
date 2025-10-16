@@ -5,6 +5,8 @@ import CourseList from "./Components/CourseList";
 import ShowMore from "./Components/ShowMore";
 import LoginStatus from "./Components/LoginStatus";
 import MultipleConditions from "./Components/MultipleConditions";
+import StatusBadge from "./Components/StatusBadge";
+import MessagePopUp from "./Components/MessagePopUp";
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
       <ShowMore />
       <LoginStatus />
       <MultipleConditions />
+      <StatusBadge status="active"/>
+      <MessagePopUp/>
     </>
   );
 };
