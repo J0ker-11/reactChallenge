@@ -3,6 +3,7 @@ import ProductList from "./Components/ProductList";
 import ProfileCard from "./Components/ProfileCard";
 import CourseList from "./Components/CourseList";
 import ShowMore from "./Components/ShowMore";
+import LoginStatus from "./Components/LoginStatus";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <CourseList />
       <h1 className="text-4xl my-5"> CONDITIONAL RENDERING TASKS</h1>
       <ShowMore />
+      <LoginStatus />
     </>
   );
 };

@@ -21,6 +21,7 @@ const ShowMore = ({ text = longText, wordsToShow = 10 }) => {
 
   return (
     <div>
+      <h1>CHALLENGE 1</h1>
       <p>{isExpand ? text : shortText}</p>
 
       <button onClick={toggle} disabled={isShorterThanLimit} style={{
