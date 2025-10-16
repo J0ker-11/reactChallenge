@@ -1,4 +1,5 @@
 import Button from "./Components/Button";
+import ProductList from "./Components/ProductList";
 import ProfileCard from "./Components/ProfileCard";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Button text="Edit" type="secondary" />
 
       <ProfileCard name="John Doe" role="Frontend Developer" age={22} />
+      <ProductList />
     </>
   );
 };

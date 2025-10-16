@@ -1,6 +1,10 @@
 
+const users = [
+  { id: 1, name: "John", role: "Designer" },
+  { id: 2, name: "Sarah", role: "Developer" },
+  { id: 3, name: "Mike", role: "Product Manager" },
+];
 
-import React from 'react'
 
 const ProfileCard = ({name, role, age}) => {
   return (
@@ -9,6 +13,13 @@ const ProfileCard = ({name, role, age}) => {
         <article className='text-2xl text-grey-400 px-3 py-3'>
             <h2 className='text-blue-400'> {name}  </h2>
             <p> is {age} years-old {role} </p>
+        </article>
+        
+        <article>
+            <h1>Challenge 3</h1>
+            {users.map((user,index) => (<div key={index}> 
+                {user.id} {user.name} is a {user.role}
+            </div>))}
         </article>
     </div>
   )
