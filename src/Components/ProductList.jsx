@@ -10,7 +10,7 @@ const product = [
 const ProductList = () => {
   return (
     <div>
-        <h1>CHALLENGE 4</h1>
+        <h1 className='text-2xl'>CHALLENGE 4</h1>
         {product.map((prod,index) => (<div key={index}> 
             {prod.id} {prod.title}: ${prod.price}
             {prod.price > 1000 ? <span> - Expensive</span> : <span> - Affordable</span>}
